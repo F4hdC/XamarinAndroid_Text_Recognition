@@ -14,13 +14,6 @@ using System;
 using Android.Content.PM;
 using System.Drawing;
 using System.Text;
-/*
-using Google.AR.Sceneform.UX;
-using Google.Android.Filaments;
-using Google.AR.Core;
-using Google.AR.Sceneform;
-using Google.AR.Sceneform.Rendering;
-using Material = Google.AR.Sceneform.Rendering.Material; */
 using Java.Util.Concurrent;
 
 
@@ -35,10 +28,7 @@ namespace LectureAppAndroid
         Button MyBtnStart;
         TextRecognizer MyTextRecognizer;
         SparseArray items;
-        Rect MyRect;
         Canvas MyCanvas = new Canvas();
-        //ArFragment MyArFragment;
-        //Material MyReadyColor;
 
 
         private static int RequestPermissionId = 101;
@@ -78,40 +68,8 @@ namespace LectureAppAndroid
             MyTxtView = FindViewById<TextView>(Resource.Id.text_view);
             MyBtnStart = FindViewById<Button>(Resource.Id.btn_start);
             MyBtnStart.Click += Btn_Click;
-
-            // MyArFragment = (ArFragment)this.SupportFragmentManager.FindFragmentById(Resource.Id.surfaceView);
-            // SetUpPlane();
-           /* MaterialFactory.MakeOpaqueWithColor(this, new Google.AR.Sceneform.Rendering.Color(Android.Graphics.Color.Green)).GetAsync().ContinueWith
-                (materialTask =>{ MyReadyColor = (Material)materialTask.Result; });*/
-
-
         }
-        /*
-        private void OnTapArPlaneListenner(HitResult hitResult, Plane plane, MotionEvent motionEvent)
-        {
-            Anchor MyAnchor = hitResult.CreateAnchor();
-            AnchorNode MyAnchorNode = new AnchorNode(MyAnchor);
-            MyAnchorNode.SetParent(MyArFragment.ArSceneView.Scene);
-            createModel(MyAnchorNode);
-        }
-
-        private void createModel(AnchorNode myAnchorNode)
-        {
-            TransformableNode MyNode = new TransformableNode(MyArFragment.TransformationSystem);
-            MyNode.SetParent(myAnchorNode);
-
-            // Aqui es donde Creo el objeto que mas tarde lo puedo cambiar por algún video.
-            var NodeRenderable = ShapeFactory.MakeSphere(0.08f, new Google.AR.Sceneform.Math.Vector3(0.0f, 0.15f, 0.0f), MyReadyColor);
-            MyNode.Renderable = NodeRenderable;
-            MyNode.Select();
-        }
-
-        private void SetUpPlane(){
-            MyArFragment.TapArPlane += (sender, args) => this.OnTapArPlaneListenner(args.HitResult, args.Plane, args.MotionEvent);
-        }
-        */
-
-
+        
         private void Btn_Click(object sender, EventArgs e)
         {
             try
@@ -267,22 +225,7 @@ namespace LectureAppAndroid
          
         }
 
-        /*public void drawrect()
-        {
-            for (int i = 0; i < items.Size(); i++)
-            {
-                var item = items.ValueAt(i) as TextBlock;
-        
-                Paint MyPaint = new Paint();
-                MyRect = new Rect(item.BoundingBox);
-                MyRect = item.BoundingBox;
-
-                MyPaint.SetARGB(23, 33, 45, 12);
-                MyCanvas.DrawRect(MyRect, MyPaint);
-
-            }
-        
-        }*/
+      
     }
 
 }

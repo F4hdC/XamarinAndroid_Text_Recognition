@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fahdc\\source\\repos\\usal-za-lecturapp\\LectureAppAndroid\\LectureAppAndroid.csproj": {}
+    "C:\\Users\\usuario\\source\\repos\\XamarinAndroid_Text_OCR\\LectureAppAndroid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fahdc\\source\\repos\\usal-za-lecturapp\\LectureAppAndroid\\LectureAppAndroid.csproj": {
+    "C:\\Users\\usuario\\source\\repos\\XamarinAndroid_Text_OCR\\LectureAppAndroid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fahdc\\source\\repos\\usal-za-lecturapp\\LectureAppAndroid\\LectureAppAndroid.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\XamarinAndroid_Text_OCR\\LectureAppAndroid.csproj",
         "projectName": "LectureAppAndroid",
-        "projectPath": "C:\\Users\\fahdc\\source\\repos\\usal-za-lecturapp\\LectureAppAndroid\\LectureAppAndroid.csproj",
-        "packagesPath": "C:\\Users\\fahdc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fahdc\\source\\repos\\usal-za-lecturapp\\LectureAppAndroid\\obj\\",
+        "projectPath": "C:\\Users\\usuario\\source\\repos\\XamarinAndroid_Text_OCR\\LectureAppAndroid.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuario\\source\\repos\\XamarinAndroid_Text_OCR\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\fahdc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

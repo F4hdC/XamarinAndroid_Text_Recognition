@@ -6,5 +6,6 @@
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>pixel</AndroidDesignerPreferredDevice>
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
 </Project>
